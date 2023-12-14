@@ -1,0 +1,37 @@
+.my-story{
+    display: flex;
+    background-color: #ACAF3A;
+    height: 345px;
+    .my{
+        display: flex;
+        img{
+            width: 180px;
+            height: 270px;
+            margin-left: 9rem;
+            margin-top: 2rem;
+        }
+        h2{
+            font-size: 44px;
+            font-weight: 600;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            color: white; 
+            margin-top: 3rem;
+            margin-left: -2rem;
+            text-align: start;
+        }
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+    }
+    a{
+        font-size: 13px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        color: white;
+        text-decoration: none;
+    }
+}
