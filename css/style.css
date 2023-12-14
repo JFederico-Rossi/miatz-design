@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@
 /* FONTS */
 /* h1 */
 h1 {
-  font-size: 69px;
+  font-size: 70px;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
 }
@@ -18,16 +18,19 @@ h2 {
   font-size: 56px;
   font-weight: 600;
   text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 
 h3 {
   font-size: 26px;
   font-weight: 500;
+  font-family: "Poppins", sans-serif;
 }
 
 p {
   font-size: 16px;
   font-weight: 400;
+  font-family: "Poppins", sans-serif;
 }
 
 img {
@@ -120,16 +123,17 @@ nav .logo img {
 }
 .main-container .box-white .box-white-items h1 {
   padding: 0rem 2rem 0.5rem 0rem;
+  font-size: 70px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
 }
 .main-container .box-white .box-white-items h3 {
   padding: 0.5rem 3rem 0.7rem 0rem;
-  font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: 24px;
 }
 .main-container .box-white .box-white-items p {
   padding: 0.7rem 2.5rem 0.5rem 0rem;
-  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   font-weight: 300;
   line-height: 1.6rem;
@@ -173,6 +177,40 @@ nav .logo img {
   z-index: 10;
 }
 
+.pattern-design {
+  background-color: #E6D9CE;
+}
+.pattern-design h2 {
+  font-size: 56px;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  padding-top: 2rem;
+}
+.pattern-design p {
+  text-align: center;
+  margin: 2rem auto;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.4rem;
+  letter-spacing: 1px;
+}
+
+.star-green img {
+  position: absolute;
+  top: 116.8rem;
+  right: 1.8rem;
+  width: 124x;
+  height: 124px;
+  z-index: 10;
+}
+
+.gallery h2 {
+  font-size: 56px;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
 .gallery p {
   text-align: center;
   margin: 2rem auto;
@@ -199,6 +237,89 @@ nav .logo img {
   transition-duration: 0.5s;
   opacity: 0.9;
   filter: brightness(60%);
+}
+
+.my-story {
+  display: flex;
+  background-color: #ACAF3A;
+  height: 345px;
+}
+.my-story .my {
+  display: flex;
+}
+.my-story .my img {
+  width: 180px;
+  height: 270px;
+  margin-left: 9rem;
+  margin-top: 2rem;
+}
+.my-story .my h2 {
+  font-size: 44px;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin-top: 3rem;
+  margin-left: -2rem;
+  text-align: start;
+}
+.my-story p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.my-story a {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+}
+
+.carousel-inner {
+  margin-left: 10rem;
+  display: flex;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 580px;
+  width: 400px;
+}
+.carousel-item .d-flex {
+  gap: 1.5rem;
+}
+.carousel-item .d-flex a {
+  display: flex;
+}
+.carousel-item .d-flex a img {
+  width: 385px !important;
+  height: 530px;
+}
+.carousel-item .d-flex a img:hover {
+  translate: transform;
+  transform: scale(1.1);
+  transition-duration: 0.8s;
+  opacity: 0.9;
+  filter: brightness(60%);
+}
+
+.carousel-control-prev, .carousel-control-next {
+  background-color: lightgray !important;
+  width: 70px !important;
+  height: 70px !important;
+  margin: 18% 0 0 11.5rem;
+}
+
+.carousel-control-next {
+  margin: auto;
+  opacity: 75% !important;
+}
+.carousel-control-next:hover {
+  opacity: 0.9 !important;
 }
 
 /*# sourceMappingURL=style.css.map */

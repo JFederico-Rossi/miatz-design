@@ -1,9 +1,17 @@
 .gallery{
+    h2{
+        font-size: 56px;
+        font-weight: 600;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    
+    }
     p{
         text-align: center;
         margin: 2rem auto;
         font-weight: 600;
         font-size: 14px;
+
     }
     .gallery-items{
         max-width: 77rem;
